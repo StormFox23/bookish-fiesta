@@ -1,0 +1,15 @@
+mkdir client
+mkdir server
+
+***SERVER***
+cd server 
+yarn add nodemon --dev
+yarn add express
+yarn add mongoose
+yarn add passport.js
+
+
+yarn add passport-local
+yarn add bcryptjs
+
+yarn nodemon server.js
